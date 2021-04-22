@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicional 2</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <h1>Actividades</h1>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Días</th>
+                <th rowspan="2">Turno</th>
+                <th rowspan="2">Salón</th>
+                <th rowspan="2">Actividad</th>
+                <th colspan="2" >Costo</th>
+                <th rowspan="2">Intensidad</th>
+            </tr>
+            <tr>
+                <th>Socios</th>
+                <th>No Socios</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lunes y miércoles</td>
+                <td rowspan="2">Mañana</td>
+                <td rowspan="4">1</td>
+                <td>Yoga</td>
+                <td rowspan="4">$400</td>
+                <td rowspan="4">$500</td>
+                <td style="background-color: #2D715C;"><strong>Baja</strong></td>
+            </tr>
+            <tr>
+                <td>Martes y jueves</td>
+                <td>Pilates</td>
+                <td style="background-color: #D89A07;"><strong>Alta</strong></td>
+            </tr>
+            <tr>
+                <td>Lunes y miércoles</td>
+                <td rowspan="2">Mediodía</td>
+                <td>Yoga</td>
+                <td style="background-color: #618D3E;"><strong>Moderada</strong></td>
+            </tr>
+            <tr>
+                <td>Martes y jueves</td>
+                <td>Elongación</td>
+                <td style="background-color: #2D715C;"><strong>Baja</strong></td>
+            </tr>
+            <!-- tr*4>td>lorem5^td+td --> 
+            <tr>
+                <td>Lunes y miércoles</td>
+                <td rowspan="2">Tarde</td>
+                <td rowspan="4">2</td>
+                <td>Boxeo</td>
+                <td colspan="2">$800</td>
+                <td style="background-color: #D89A07;"><strong>Alta</strong></td>
+            </tr>
+            <tr>
+                <td>Martes y jueves</td>
+                <td>Tango</td>
+                <td colspan="2" rowspan="2">$750</td>
+                <td rowspan="2" style="background-color: #618D3E;"><strong>Moderada</strong></td>
+            </tr>
+            <tr>
+                <td>Lunes y miércoles</td>
+                <td rowspan="2">Noche</td>
+                <td>Salsa</td>
+            </tr>
+            <tr>
+                <td>Martes y jueves</td>
+                <td>Aeróbica</td>
+                <td>$400</td>
+                <td>$500</td>
+                <td style="background-color: #B6480B;"><strong>Intensa</strong></td>
+            </tr>   
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="7"><em>Todas las actividades tienen una hora de duración.</em></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
